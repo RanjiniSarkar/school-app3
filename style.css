@@ -1,0 +1,40 @@
+h1{ 
+    color:#008000
+}
+*{
+    border:solid;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color :#009090
+}
+a:link{
+    color : blue;
+}
+a:visited{
+    color :blue;
+
+}
+.menu a{
+    padding: 90px;
+    
+}
+.item:hover p{
+    opacity: 0.5;
+
+}
+.item:hover img{
+    opacity: 0.33;
+}
